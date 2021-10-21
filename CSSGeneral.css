@@ -1,0 +1,42 @@
+h1
+{
+    color: rgb(89, 32, 155);
+    text-align: center;
+    font-size: 3.1em;
+    border-top: 3px rgba(247, 0, 255, 0.527) double;
+}
+p
+{
+    text-align: justify;
+    font-size: 1.7em;
+    color: rgb(89, 32, 155);
+    text-shadow: 2px 2px 4px rgba(177, 49, 194, 0.719);
+    width: 600 px;
+    
+}
+
+.poesie
+{
+    text-align: center;
+}
+
+.imagecorneille
+{
+    float: left;
+}
+
+
+
+body
+
+{
+    background-image: url("Images/Plume.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat ;
+    background-size: cover;
+
+}
+em
+{
+    color: sienna;
+}
