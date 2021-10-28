@@ -5,38 +5,67 @@ h1
     font-size: 3.1em;
     border-top: 3px rgba(247, 0, 255, 0.527) double;
 }
+
+h2
+{
+    color: rgb(89, 32, 155);
+    text-align: center;
+}
+
+h3
+{
+    color: rgb(89, 32, 155);
+    text-align: center;
+}
+
 p
 {
     text-align: justify;
     font-size: 1.7em;
-    color: rgb(89, 32, 155);
-    text-shadow: 2px 2px 4px rgba(177, 49, 194, 0.719);
-    width: 600 px;
-    
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 4px rgba(158, 145, 160, 0.719);
 }
 
-.poesie
+img
 {
-    text-align: justify;
+    max-width: 300px;
+    max-height: 300px;
 }
-
-.imagecorneille
-{
-    float: left;
-}
-
-
 
 body
-
 {
     background-image: url("Images/Plume.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat ;
     background-size: cover;
+}
+
+nav
+{
+    float: left;
+    width: 400px;
+}
+
+section
+{
+    margin-left: 550px;
+    flex: auto;
+}
+
+article
+{
+    display: flex;
+    width: 700px;
+    height: 110px;
+    overflow: auto;
+}
+
+aside
+{
 
 }
-em
+
+footer
 {
-    color: sienna;
+
 }
