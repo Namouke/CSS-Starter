@@ -40,6 +40,10 @@ body
     background-size: cover;
 }
 
+header
+{
+    margin: 100px;
+}
 nav
 {
     float: left;
@@ -58,17 +62,22 @@ article
     width: 700px;
     height: 110px;
     overflow: auto;
+    margin: 10px;
+    padding: 10px;
 }
 .container
 {
     display: flex;
+    padding: 15px;
+    margin: 10px;
 }
 aside
 {
-
+margin: 30px;
+padding: 10px;
 }
 
 footer
 {
-
+margin: 30pxs;
 }
